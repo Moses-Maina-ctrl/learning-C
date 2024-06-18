@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int twice(int *x) // defines t
+int twice(int *x) // defines the that it takes a pointer as the argument
 {
   *x = *x * 2; //dereference this is the actual value not the pointer
 }
